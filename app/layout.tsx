@@ -3,8 +3,8 @@ import type { Metadata } from 'next'
 import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
-  title: 'Codebender AI Template',
-  description: 'Template code for the Codebender AI Project',
+  title: 'Chat With A Man',
+  description: "Man is Man's best AI.",
 }
 
 export default function RootLayout({
