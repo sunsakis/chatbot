@@ -99,7 +99,7 @@ const CoachingPage = () => {
             <span className="text-blue-600 text-3xl font-bold">Ask a question!</span>
           </div>
           
-          <div className="h-[500px] relative"> {/* Added relative positioning */}
+          <div className="h-[200px] relative"> {/* Added relative positioning */}
             <ChatElement />
           </div>
         </div>
