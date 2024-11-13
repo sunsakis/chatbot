@@ -3,8 +3,8 @@ import type { Metadata } from 'next'
 import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
-  title: 'Chat With The Man',
-  description: "Man is Man's best AI.",
+  title: 'WisenUp',
+  description: "Life coaching and mentoring chatbot that helps.",
 }
 
 export default function RootLayout({
