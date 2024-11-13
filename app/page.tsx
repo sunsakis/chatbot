@@ -70,7 +70,7 @@ const CoachingPage = () => {
             </p>
             
             <div className="flex gap-4">
-              <button className="bg-blue-600 text-white px-6 py-2 rounded-md">
+              <button className="bg-gray-300 hover:bg-gray-200 border text-white px-6 py-2 rounded-md">
                 Sign In
               </button>
               <Link href="/chat" className="text-blue-600 flex items-center">
