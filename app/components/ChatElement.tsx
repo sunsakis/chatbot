@@ -32,7 +32,7 @@ const ChatElement = () => {
                 alt="avatar"
                 width={32}
                 height={32}
-                src={m.role === "user" ? "/user-avatar.jpg" : "/ai-avatar.webp"}
+                src={m.role === "user" ? "/user-avatar.jpg" : "/ai-avatar.png"}
               />
               <div className="flex-1 ml-4">
                 <p className={`mt-0 whitespace-pre-wrap ${
