@@ -46,10 +46,9 @@ const CoachingPage = () => {
             
             <nav className="overflow-x-auto">
               <ul className="flex gap-6 text-gray-600 whitespace-nowrap">
-                <li className="text-sm md:text-base">Life</li>
-                <li className="text-sm md:text-base">Dating</li>
-                <li className="text-sm md:text-base">Relations</li>
-                <li className="text-sm md:text-base">Mental wellness</li>
+                <Link href="/blog">
+                  <li className="text-sm md:text-base text-blue-600 underline">Blog</li>
+                </Link>
               </ul>
             </nav>
           </div>
